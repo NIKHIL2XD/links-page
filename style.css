@@ -1,54 +1,54 @@
 html{
-    height: 100%;
-    width: 100%;
-  }
+  height: 100%;
+  width: 100%;
+}
+
+body{
+   background-image: linear-gradient(to bottom right, #ffffff, #b32dfb);
   
-  body{
-     background-image: linear-gradient(to bottom right, #000000, #7307bb);
-    
-  }
-  
-  .container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 30px;
-    background-color: #7910b1;
-    box-shadow: 0 0 15px 5px #7910b1;;
-    border-radius: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .child-box{
-    border: 1px solid #000000;
-    background-color: #6a1392;
-    display: block;
-    text-decoration: none;
-    width: 230px;
-    height: 40px;
-    margin: 10px;
-    color: #dddddd;
-    border-radius: 5px;
-  }
-  
-  .child-box:hover{
-    background-color: #ffffff;
-    border: 1px solid #6a1392;
-    color: #6a1392;
-    transition-delay: 0.2s;
-    transition: ease-in-out 0.5s;
-  }
-  
-  .one{
-    width: 25px;
-    height: 25px;
-    margin-top: 8px;
-    margin-left: 10px;
-  }
-  
-  span{
-    position: absolute;
-    margin-top: 11px;
-    margin-left: 13px;
-  }
+}
+
+.container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  background-color: #b13fee;
+  box-shadow: 0 0 15px 5px #c25df9;;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.child-box{
+  border: 1px solid #000000;
+  background-color: #ffffff;
+  display: block;
+  text-decoration: none;
+  width: 230px;
+  height: 40px;
+  margin: 10px;
+  color: #5c5c5c;
+  border-radius: 10px;
+}
+
+.child-box:hover{
+  background-color: #5c187c;
+  border: 1px solid #6a1392;
+  color: #ffffff;
+  transition-delay: 0.1s;
+  transition: ease-in-out 0.3s;
+}
+
+.one{
+  width: 25px;
+  height: 25px;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+span{
+  position: absolute;
+  margin-top: 11px;
+  margin-left: 13px;
+}
